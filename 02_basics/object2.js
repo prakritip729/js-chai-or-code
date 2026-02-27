@@ -65,3 +65,28 @@ console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 console.log(tinderUser.hasOwnProperty('isLogged'));
 //used to check whether the value or key pair is present or not 
 
+
+//destructuring
+const cource = {
+    courcename : "js in hindi ",
+    price:"9999",
+    courceInstructor:"prakriti",
+}
+console.log(cource.courcename)          // this is ok but you have to type for different values seversl times
+
+const {courceInstructor:instructor} = cource        //you can give name according to you
+console.log(instructor);                
+console.log(cource)
+
+
+// APIs
+// {
+//     "name" : "prakriti",
+//     "coucename" : "js in hindi",    //are the ways to write json it is like object but here no name is given to object hence it is considered as json
+//     "price" : "free",
+// }
+// [
+//     {},
+//     {},
+//     {},
+// ]
