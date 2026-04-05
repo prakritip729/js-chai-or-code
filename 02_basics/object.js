@@ -4,7 +4,7 @@
    
 
  const mysym = Symbol("key1")
-
+ 
  const jssss = {
     name:"prakriti",
     "full name" : "prakriti",            //for printing ful name dot method can not be used

@@ -10,10 +10,10 @@
 //symbol. 4
  const id = Symbol('123')   //work of symbol is that if you pass same value in two symbols
  //  but still these values are different 
- const anotherId = Symbol('123')    
+ const anotherId = Symbol('123')    //symbol.5
 console.log(id === anotherId);
  
-const BigNumber = 2334534456453263463n//bigint. 5
+const BigNumber = 2334534456453263463n//bigint. 6
 
  
  //Reference (non primitive)

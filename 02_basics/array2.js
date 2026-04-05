@@ -20,7 +20,7 @@ const allHeroes = marvel_heroes.concat(dc_heroes)
 console.log(allHeroes);
 
 
-//this is concat used to join two arrays in one new array 
+//this is concat  used to join two arrays in one new array 
 
 
 const all_new_heroes = [...marvel_heroes,...dc_heroes]

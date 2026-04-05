@@ -1,24 +1,24 @@
  const myArr = [0,1,2,3,4,5]                //initialization 1
-//  const myHeroes = ["saktiman","doremon"]    //initialization 2
+ const myHeroes = ["saktiman","doremon"]    //initialization 2
 
-//  const myArr2 = new Array(1,2,3,4)          //initializing 3
-//  console.log(myArr2[0]);                    //printing element by index
+ const myArr2 = new Array(1,2,3,4)          //initializing 3
+ console.log(myArr2[0]);                    //printing element by index
 
-// //  myArr.push(6)                              //add element in the array
-// //  myArr.push(7)                              
-// //  myArr.pop ()                               //remove the last element from the array
-// //  myArr.unshift(9)                           //add the element as the first element in the array
-//   myArr.shift()                                //removes the first element from the array     
-//  console.log(myArr);
+//  myArr.push(6)                              //add element in the array
+//  myArr.push(7)                              
+//  myArr.pop ()                               //remove the last element from the array
+//  myArr.unshift(9)                           //add the element as the first element in the array
+  myArr.shift()                                //removes the first element from the array     
+ console.log(myArr);
  
-//  console.log(myArr.includes(2));                //boolean type tell whether element is present or not 
-//  console.log(myArr.indexOf(4));                 //gives the index of the element present 
-//  console.log(myArr.indexOf(9));                 //given -1 when the element is not present in the array
+ console.log(myArr.includes(2));                //boolean type tell whether element is present or not 
+ console.log(myArr.indexOf(4));                 //gives the index of the element present 
+ console.log(myArr.indexOf(9));                 //given -1 when the element is not present in the array
 
-//  const newArr = myArr.join();                   //add all the element to the string
-//  console.log(myArr);
-//  console.log(newArr);                           //GIVES the data same as the joined array
-//  console.log(typeof newArr);                   //datatype is changed to string by using join method 
+ const newArr = myArr.join();                   //add all the element to the string
+ console.log(myArr);
+ console.log(newArr);                           //GIVES the data same as the joined array
+ console.log(typeof newArr);                   //datatype is changed to string by using join method 
   
    //slice and splice  
    console.log("AB" , myArr)

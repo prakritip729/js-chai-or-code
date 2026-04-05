@@ -21,8 +21,8 @@ console.log("1" + 2 + 2);      //122
 console.log((1 + 2) + "3");     //33  
 
 
-console.log(+true)
-console.log(+" ")     //1 
+console.log(+true).   //1      
+console.log(+" ")     //0 
 
 
 let sum = 23

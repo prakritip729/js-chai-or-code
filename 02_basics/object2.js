@@ -82,7 +82,7 @@ console.log(cource)
 // APIs
 // {
 //     "name" : "prakriti",
-//     "coucename" : "js in hindi",    //are the ways to write json it is like object but here no name is given to object hence it is considered as json
+//     "coucename" : "js in hindi",    //are the ways to write json it is like object but here no name is given to object hence it is considered as json  
 //     "price" : "free",
 // }
 // [
