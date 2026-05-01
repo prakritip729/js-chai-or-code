@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<body style="background-color :black ; color :aliceblue">
+<ul class = " language">
+    <li> javascript</li>
+</ul>
+</body>
+<script>
+    //firstly we generate function to add new language in the list with the help of innerHtml
+    function addlanguage(langname){
+        const li = document.createElement('li'); // create a new <li> element every time functio is called
+        li.innerHTML = `${langname}` // add text inside <li>
+            document.querySelector(`.language`).appendChild(li) // selects the <ul  using class name then adds <li> at the end od list 
+            }
+            //function calls
+            addlanguage("python")
+            addlanguage("html")
+
+    //now we are generating same function with the help of .appendChild()
+    function addpotilanguage(langname){
+        const li = document.createElement('li') // creates a new <li> elemeent evry time function is called 
+        li.append(document.createTextNode(langname)) // creates safe text(not HTML)
+            document.querySelector('.language').appendChild(li) //selects the <u> using class anme hten adds new <li> at the end od list 
+            }
+            //function calls
+            addpotilanguage("css")
+            addpotilanguage("java")
+
+
+    //now we are talking about editing in DOM
+
+    //-------method 1:replace 2nd element (using replaceWith())
+    const secondlang = document.querySelector("li:nth-child(2)")//selecting the 2nd child
+    console.log(secondlang);
+    //secondlang.innerHTML = " mojo"
+    const newli = document.createElement('li') // cretae new element
+    newli.textContent = "mojo" 
+    secondlang.replaceWith(newli) // replace old element
+
+    //-----method 2: replace 1st element (using outerHTML)
+    const firstlang = document.querySelector("li:first-child")
+    firstlang.outerHTML = '<li>Typesscript</li>'
+
+    //outer HTML replaces the entire element itself not just  content - whole tag is replaced
+
+    //removing the last element
+    const lastlang = document.querySelector('li:last-child')
+    lastlang.remove() // removes that element from DOM
+</script>
+</html>
